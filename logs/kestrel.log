@@ -1,0 +1,116 @@
+=== Kestrel Log Started: 2026-04-03 19:50:30 ===
+19:50:30.685 [INFO] Kestrel v1.0
+19:50:30.685 [INFO] Ready for serial communication
+19:50:30.687 [INFO] Using Kestrel serial terminal patterns
+19:50:30.687 [INFO] Auto-detecting available serial ports
+19:50:31.857 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:50:31.948 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:50:31.948 [INFO] Selected COM port: COM8
+19:50:31.948 [INFO] Auto-connecting to Kestrel port COM8...
+19:50:32.336 [INFO] Kestrel 5340 on COM13
+19:50:32.361 [INFO] 5340 port COM13 connected
+19:50:32.455 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:50:33.214 [DEBUG] →5340: kl status
+19:50:33.323 [INFO] KL status loaded
+19:50:33.825 [DEBUG] →5340: kl fmt dump
+19:50:33.825 [INFO] KL format table loaded: 0 slot(s)
+19:50:34.322 [DEBUG] →5340: mav status
+19:50:34.324 [INFO] MAV status loaded
+19:50:38.168 Application state reset - ready for new connection
+19:50:38.169 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-03 19:51:32 ===
+19:51:32.378 [INFO] Kestrel v1.0
+19:51:32.378 [INFO] Ready for serial communication
+19:51:32.379 [INFO] Using Kestrel serial terminal patterns
+19:51:32.379 [INFO] Auto-detecting available serial ports
+19:51:33.558 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:51:33.652 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:51:33.653 [INFO] Selected COM port: COM8
+19:51:33.653 [INFO] Auto-connecting to Kestrel port COM8...
+19:51:34.025 [INFO] Kestrel 5340 on COM13
+19:51:34.052 [INFO] 5340 port COM13 connected
+19:51:34.150 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:51:34.498 Application state reset - ready for new connection
+19:51:34.499 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-03 19:53:24 ===
+19:53:24.395 [INFO] Kestrel v1.0
+19:53:24.396 [INFO] Ready for serial communication
+19:53:24.396 [INFO] Using Kestrel serial terminal patterns
+19:53:24.397 [INFO] Auto-detecting available serial ports
+19:53:25.583 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:53:25.688 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:53:25.688 [INFO] Selected COM port: COM8
+19:53:25.689 [INFO] Auto-connecting to Kestrel port COM8...
+19:53:26.053 [INFO] Kestrel 5340 on COM13
+19:53:26.079 [INFO] 5340 port COM13 connected
+19:53:26.173 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:53:26.931 [DEBUG] →5340: kl status
+19:53:27.031 [INFO] KL status loaded
+19:53:27.537 [DEBUG] →5340: kl fmt dump
+19:53:27.538 [INFO] KL format table loaded: 0 slot(s)
+19:53:28.044 [DEBUG] →5340: mav status
+19:53:28.046 [INFO] MAV status loaded
+19:54:19.321 [ERROR] Login failed - n> app_modem_info: Failed to get cell ID: -5 (attempt 1/3)
+19:54:23.535 Application state reset - ready for new connection
+19:54:23.535 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-03 19:55:22 ===
+19:55:22.970 [INFO] Kestrel v1.0
+19:55:22.971 [INFO] Ready for serial communication
+19:55:22.971 [INFO] Using Kestrel serial terminal patterns
+19:55:22.972 [INFO] Auto-detecting available serial ports
+19:55:24.142 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:55:24.235 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:55:24.236 [INFO] Selected COM port: COM8
+19:55:24.236 [INFO] Auto-connecting to Kestrel port COM8...
+19:55:24.615 [INFO] Kestrel 5340 on COM13
+19:55:24.642 [INFO] 5340 port COM13 connected
+19:55:24.737 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:55:25.494 [DEBUG] →5340: kl status
+19:55:25.589 [INFO] KL status loaded
+19:55:26.119 [DEBUG] →5340: kl fmt dump
+19:55:26.129 [INFO] KL format table loaded: 0 slot(s)
+19:55:26.619 [DEBUG] →5340: mav status
+19:55:26.630 [INFO] MAV status loaded
+19:55:27.664 Application state reset - ready for new connection
+19:55:27.665 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-03 19:56:23 ===
+19:56:23.849 [INFO] Kestrel v1.0
+19:56:23.849 [INFO] Ready for serial communication
+19:56:23.849 [INFO] Using Kestrel serial terminal patterns
+19:56:23.849 [INFO] Auto-detecting available serial ports
+19:56:25.046 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:56:25.140 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:56:25.141 [INFO] Selected COM port: COM8
+19:56:25.141 [INFO] Auto-connecting to Kestrel port COM8...
+19:56:25.504 [INFO] Kestrel 5340 on COM13
+19:56:25.530 [INFO] 5340 port COM13 connected
+19:56:25.625 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:56:26.381 [DEBUG] →5340: kl status
+19:56:26.383 [INFO] KL status loaded
+19:56:26.835 [DEBUG] →5340: kl fmt dump
+19:56:26.836 [INFO] KL format table loaded: 0 slot(s)
+19:56:27.286 [DEBUG] →5340: mav status
+19:56:27.287 [INFO] MAV status loaded
+19:57:13.741 Application state reset - ready for new connection
+19:57:13.741 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-03 19:58:20 ===
+19:58:20.631 [INFO] Kestrel v1.0
+19:58:20.632 [INFO] Ready for serial communication
+19:58:20.632 [INFO] Using Kestrel serial terminal patterns
+19:58:20.633 [INFO] Auto-detecting available serial ports
+19:58:21.812 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+19:58:21.903 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:58:21.905 [INFO] Selected COM port: COM8
+19:58:21.905 [INFO] Auto-connecting to Kestrel port COM8...
+19:58:22.289 [INFO] Kestrel 5340 on COM13
+19:58:22.316 [INFO] 5340 port COM13 connected
+19:58:22.409 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:58:23.167 [DEBUG] →5340: kl status
+19:58:23.265 [INFO] KL status loaded
+19:58:23.772 [DEBUG] →5340: kl fmt dump
+19:58:23.773 [INFO] KL format table loaded: 0 slot(s)
+19:58:24.271 [DEBUG] →5340: mav status
+19:58:24.273 [INFO] MAV status loaded
+19:58:25.935 > Sent: at_custom gen AT+CFUN ?
+19:58:34.249 Application state reset - ready for new connection
+19:58:34.250 Disconnected - All state reset

@@ -1,13 +1,13 @@
-ConfigGUI - Embedded Project Configuration Tool 
+Kestrel - Embedded Project Configuration Tool 
  
 Usage: 
 1. Connect your embedded device via USB-C 
-2. Run ConfigGUI.exe 
+2. Run Kestrel.exe 
 3. Select COM port and click Connect 
 4. Use the dual-pane interface to send commands 
  
 Required files: 
-- ConfigGUI.exe 
+- Kestrel.exe 
 - Qt6Core.dll, Qt6Gui.dll, Qt6Widgets.dll, Qt6SerialPort.dll 
 - platforms/qwindows.dll (Windows GUI plugin) 
 - MinGW runtime DLLs 
