@@ -1,0 +1,10 @@
+# Geofence action functions
+# One action per line. Lines starting with # are ignored.
+# This file is loaded at runtime - edit it to add or remove actions.
+log
+silent_in_zone
+silent_out_zone
+RTL
+LAND
+HOLD
+WARN

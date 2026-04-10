@@ -1,0 +1,337 @@
+{
+    "config3": {
+        "description": "testing"
+    },
+    "cust_desc": {
+        "description": "Customer Description (string, max 64 chars)  -  Human-readable device description",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "cust_f2": {
+        "description": "Customer Field 2 (string, max 64 chars)  -  Reserved customer field 2",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "cust_f3": {
+        "description": "Customer Field 3 (string, max 64 chars)  -  Reserved customer field 3",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "cust_f4": {
+        "description": "Customer Field 4 (string, max 64 chars)  -  Reserved customer field 4",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "gnss_acc": {
+        "description": "GNSS Accuracy Threshold (int, metres)  -  Minimum acceptable horizontal accuracy; default 3 m",
+        "type": "int"
+    },
+    "gnss_con": {
+        "description": "GNSS Constellation Mask (uint8 hex)  -  Active GNSS constellation bitmask sent to u-blox via UBX CFG-VALSET. Click to edit.",
+        "type": "hex"
+    },
+    "gnss_rt": {
+        "description": "GNSS Update Rate (int, seconds)  -  Position fix update interval; default 1 s",
+        "type": "int"
+    },
+    "gnss_ver": {
+        "description": "GNSS Version (string, max 32 chars)  -  Receiver chip/firmware version string (e.g. u-blox8)",
+        "maxLen": 32,
+        "type": "string"
+    },
+    "gps_fmt": {
+        "description": "GPS Format  -  GPS string format in telemetry; default NMEA",
+        "type": "enum",
+        "values": [
+            "NMEA",
+            "DD"
+        ]
+    },
+    "hw_info": {
+        "description": "Hardware Info (string: sn,hw_ver,fw_ver)  -  Device serial number, hardware revision, and firmware version",
+        "type": "string"
+    },
+    "led_brightness": {
+        "description": "LED Brightness (int, 0-100)  -  Charge status LED brightness; default 100",
+        "type": "int"
+    },
+    "lte_bnd": {
+        "default": "10000001000000001100",
+        "description": "LTE Band Mask (binary string, max 85 chars)  -  Active LTE-M/NB-IoT bands as a binary bit-string; LSB (rightmost) = Band 1, leading zeros omitted.",
+        "maxLen": 85,
+        "type": "binary"
+    },
+    "mdm_imei": {
+        "description": "Modem IMEI (string, max 20 chars)  -  IMEI number; if blank, refreshed via AT commands on boot",
+        "maxLen": 20,
+        "type": "string"
+    },
+    "mdm_info": {
+        "description": "Modem Info (string: make,model,fw_ver)  -  Cellular modem manufacturer, model, and firmware version",
+        "fields": 3,
+        "type": "csv"
+    },
+    "misc_en": {
+        "description": "Misc Enable (uint8 bitmask)  -  Bit 0: charge LED, Bit 1: apply config on power-down, Bits 2-3: reserved",
+        "type": "hex"
+    },
+    "misc_f1": {
+        "description": "Misc Field 1 (string, max 64 chars)  -  Reserved string field 1",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "misc_f2": {
+        "description": "Misc Field 2 (string, max 64 chars)  -  Reserved string field 2",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "misc_p2": {
+        "description": "Misc Parameter 2 (int)  -  Reserved integer parameter",
+        "type": "int"
+    },
+    "misc_rsv": {
+        "description": "Misc Reserved (string, max 64 chars)  -  Reserved for future use",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "mq_addr": {
+        "description": "MQTT Broker Address (string, max 64 chars)  -  Broker hostname or IP address",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "mq_clid": {
+        "description": "MQTT Client ID (string, max 64 chars)  -  Unique MQTT client identifier",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "mq_pass": {
+        "description": "MQTT Password (string, max 64 chars)  -  Password for broker authentication",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "mq_port": {
+        "description": "MQTT Broker Port (int)  -  TCP port; 1883 for plain, 8883 for TLS",
+        "type": "int"
+    },
+    "mq_qos": {
+        "description": "MQTT QoS (int: 0, 1, or 2)  -  Default publish Quality of Service level",
+        "type": "int"
+    },
+    "mq_rt": {
+        "description": "MQTT Poll Rate (int, ms)  -  Receive poll interval in milliseconds",
+        "type": "int"
+    },
+    "mq_tls": {
+        "description": "MQTT TLS (bool 0/1)  -  Enable TLS encryption for broker connection",
+        "type": "bool"
+    },
+    "mq_user": {
+        "description": "MQTT Username (string, max 64 chars)  -  Username for broker authentication",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "msg_fmt": {
+        "description": "Message Format  -  Telemetry serialization format; default JSON",
+        "type": "enum",
+        "values": [
+            "MINIMAL",
+            "JSON"
+        ]
+    },
+    "name": {
+        "description": "Configuration parameter - No description available"
+    },
+    "ntn_apn": {
+        "description": "NTN APN (string)  -  NTN cellular APN string",
+        "type": "string"
+    },
+    "ntn_bndlk": {
+        "description": "NTN Band Lock (string)  -  Comma-separated NTN band list (e.g. 23,255,256)",
+        "type": "string"
+    },
+    "ntn_chk_lte_tmr": {
+        "description": "NTN Check LTE Timer (int, seconds)  -  Interval to re-check for LTE recovery",
+        "type": "int"
+    },
+    "ntn_fb_tmr": {
+        "description": "NTN Fallback Timer (int, seconds)  -  Seconds without LTE before falling back to NTN",
+        "type": "int"
+    },
+    "ntn_flgs": {
+        "description": "NTN Flags (128-bit hex bitmask)  -  Publish-control and mode flags for Non-Terrestrial Network. Click to edit.",
+        "type": "hex"
+    },
+    "ntn_ka_to": {
+        "description": "NTN Keep-Alive Timeout (int, seconds)  -  Keep-alive idle timeout",
+        "type": "int"
+    },
+    "ntn_loc_val": {
+        "description": "NTN Location Validity (int, seconds)  -  Max GPS fix age before considered stale",
+        "type": "int"
+    },
+    "ntn_udp_ip": {
+        "description": "NTN UDP Server IP (string)  -  UDP uplink server IP address",
+        "type": "string"
+    },
+    "ntn_udp_port": {
+        "description": "NTN UDP Server Port (string)  -  UDP uplink server port number",
+        "type": "string"
+    },
+    "ota_addr": {
+        "description": "OTA Server Address (string, max 64 chars)  -  OTA server hostname or IP",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "ota_cert": {
+        "description": "OTA Certificate Tag (string, max 64 chars)  -  TLS credential tag; use -1 to skip cert verification",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "ota_devid": {
+        "description": "OTA Device ID (string, max 64 chars)  -  Device ID used in firmware download path",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "ota_int": {
+        "description": "OTA Check Interval (int, seconds)  -  Seconds between OTA version checks",
+        "type": "int"
+    },
+    "ota_pass": {
+        "description": "OTA Password (string, max 64 chars)  -  HTTP Basic Auth password for OTA",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "ota_port": {
+        "description": "OTA Server Port (int)  -  OTA server TCP port",
+        "type": "int"
+    },
+    "ota_tls": {
+        "description": "OTA TLS (bool 0/1)  -  Enable TLS for OTA server connection",
+        "type": "bool"
+    },
+    "ota_user": {
+        "description": "OTA Username (string, max 64 chars)  -  HTTP Basic Auth username for OTA",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "pbkdf2.hash": {
+        "description": "PBKDF2 Hash  -  Stored password hash using PBKDF2 algorithm (read-only)",
+        "type": "string"
+    },
+    "pbkdf2.salt": {
+        "description": "PBKDF2 Salt  -  Cryptographic salt for password-based key derivation (read-only)",
+        "type": "string"
+    },
+    "pwr_st": {
+        "description": "Power State (bool 0/1)  -  Power management subsystem active",
+        "type": "bool"
+    },
+    "reserved_enable1": {
+        "description": "Reserved Enable 1  -  Reserved for future subsystem enable flags",
+        "type": "string"
+    },
+    "reserved_enable2": {
+        "description": "Reserved Enable 2  -  Reserved for future subsystem enable flags",
+        "type": "string"
+    },
+    "reserved_gnss_config1": {
+        "description": "Reserved GNSS Config 1  -  Reserved for future GNSS features",
+        "type": "string"
+    },
+    "reserved_gnss_config2": {
+        "description": "Reserved GNSS Config 2  -  Reserved for future GNSS features",
+        "type": "string"
+    },
+    "reserved_hardware_info": {
+        "description": "Reserved Hardware Info  -  Reserved for additional hardware identity data",
+        "type": "string"
+    },
+    "reserved_modem_info": {
+        "description": "Reserved Modem Info (APN/PDN, string max 64 chars)  -  Packet Data Network / APN string",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "reserved_mqtt_config1": {
+        "description": "Reserved MQTT Config 1  -  Reserved for future MQTT features",
+        "type": "string"
+    },
+    "reserved_mqtt_config2": {
+        "description": "Reserved MQTT Config 2  -  Reserved for future MQTT features",
+        "type": "string"
+    },
+    "reserved_ota_config1": {
+        "description": "Reserved OTA Config 1  -  Reserved for future OTA features",
+        "type": "string"
+    },
+    "reserved_ota_config2": {
+        "description": "Reserved OTA Config 2  -  Reserved for future OTA features",
+        "type": "string"
+    },
+    "reserved_sensor_config1": {
+        "description": "Reserved Sensor Config 1  -  Reserved for future sensor features",
+        "type": "string"
+    },
+    "reserved_sensor_config2": {
+        "description": "Reserved Sensor Config 2  -  Reserved for future sensor features",
+        "type": "string"
+    },
+    "sens_accel_fs": {
+        "description": "Accelerometer Full Scale (int, g)  -  Full-scale range; default 8 g",
+        "type": "int"
+    },
+    "sens_bmp_odr": {
+        "description": "Barometer ODR (int, Hz)  -  BMP390 output data rate; default 25 Hz",
+        "type": "int"
+    },
+    "sens_cal": {
+        "description": "Sensor Calibration (bool 0/1)  -  Run sensor calibration routine on startup",
+        "type": "bool"
+    },
+    "sens_flt": {
+        "description": "Sensor Filter Window (int, samples)  -  Low-pass filter window size; default 8",
+        "type": "int"
+    },
+    "sens_gyro_fs": {
+        "description": "Gyroscope Full Scale (int, deg/s)  -  Full-scale range; default 500 deg/s",
+        "type": "int"
+    },
+    "sens_mag_odr": {
+        "description": "Magnetometer ODR (int, Hz)  -  IIS2MDC output data rate; default 50 Hz",
+        "type": "int"
+    },
+    "sens_pub_interval": {
+        "description": "Sensor Publish Interval (int, ms)  -  MQTT publish interval for sensor data; default 30 ms",
+        "type": "int"
+    },
+    "sens_rt": {
+        "description": "Sensor Sampling Rate (int, Hz)  -  IMU/baro/mag sampling frequency; default 100 Hz",
+        "type": "int"
+    },
+    "sim_info": {
+        "description": "SIM Info (string: sim,esim)  -  Physical SIM and eSIM identifiers",
+        "fields": 2,
+        "type": "csv"
+    },
+    "sys_en": {
+        "description": "System Enable (uint16 bitmask)  -  Controls which subsystems are initialized at boot. Click to edit bits.",
+        "type": "hex"
+    },
+    "uas_num": {
+        "description": "UAS Number (string, max 32 chars)  -  UAS registration number",
+        "maxLen": 32,
+        "type": "string"
+    },
+    "uas_status": {
+        "description": "UAS Status (string, max 64 chars)  -  Current operational status string",
+        "maxLen": 64,
+        "type": "string"
+    },
+    "units": {
+        "description": "Units  -  Measurement unit system; default METRIC",
+        "type": "enum",
+        "values": [
+            "METRIC",
+            "IMPERIAL"
+        ]
+    }
+}
