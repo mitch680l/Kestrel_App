@@ -7987,3 +7987,642 @@ for serial communication
 18:27:11.764 [DEBUG] →5340: geofence monitor
 18:27:18.649 Application state reset - ready for new connection
 18:27:18.649 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-24 15:29:46 ===
+15:29:46.470 [INFO] Kestrel v1.0
+15:29:46.470 [INFO] Ready for serial communication
+15:29:46.471 [INFO] Using Kestrel serial terminal patterns
+15:29:46.472 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-24 15:32:57 ===
+15:32:57.727 [INFO] Kestrel v1.0
+15:32:57.728 [INFO] Ready for serial communication
+15:32:57.729 [INFO] Using Kestrel serial terminal patterns
+15:32:57.729 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-24 15:57:44 ===
+15:57:44.871 [INFO] Kestrel v1.0
+15:57:44.872 [INFO] Ready for serial communication
+15:57:44.872 [INFO] Using Kestrel serial terminal patterns
+15:57:44.873 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-24 15:57:54 ===
+15:57:54.649 [INFO] Kestrel v1.0
+15:57:54.650 [INFO] Ready for serial communication
+15:57:54.650 [INFO] Using Kestrel serial terminal patterns
+15:57:54.651 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-24 16:01:33 ===
+16:01:33.760 [INFO] Kestrel v1.0
+16:01:33.760 [INFO] Ready for serial communication
+16:01:33.760 [INFO] Using Kestrel serial terminal patterns
+16:01:33.762 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-24 16:04:29 ===
+16:04:29.771 [INFO] Kestrel v1.0
+16:04:29.772 [INFO] Ready for serial communication
+16:04:29.773 [INFO] Using Kestrel serial terminal patterns
+16:04:29.773 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-25 16:51:49 ===
+16:51:49.122 [INFO] Kestrel v1.0
+16:51:49.122 [INFO] Ready for serial communication
+16:51:49.123 [INFO] Using Kestrel serial terminal patterns
+16:51:49.124 [INFO] Auto-detecting available serial ports
+16:51:49.231 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+16:51:49.417 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+16:51:49.418 [INFO] Selected COM port: COM29
+16:51:49.418 [INFO] Auto-connecting to Kestrel port COM29...
+16:51:49.538 [INFO] Kestrel 5340 on COM30
+16:51:49.586 [INFO] 5340 port COM30 connected
+16:51:49.740 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+16:51:50.492 [DEBUG] →5340: kl status
+16:51:50.508 [INFO] KL status loaded
+16:51:51.003 [DEBUG] →5340: kl fmt dump
+16:51:51.004 [INFO] KL format table loaded: 0 slot(s)
+16:51:51.461 [DEBUG] →5340: mav status
+16:51:51.475 [INFO] MAV status loaded
+16:51:53.551 [DEBUG] →5340: geofence dump
+16:51:53.641 [INFO] Geofence dump: 0 fence(s) loaded
+16:51:53.848 [DEBUG] →5340: geofence monitor
+16:51:56.932 > llext store list
+16:52:08.308 > llext store list
+16:52:34.014 > llext store list
+16:52:38.519 > llext store list
+16:55:45.415 > llext store list
+17:41:01.941 [ERROR] Login failed - [01:00:02.242,523] <
+inf> downloader: Failed to resolve hostname 44.209.5.53 on IPv6, err -2
+kestrel_9151:~$[01:00:02.818,756] [1 (attempt 1/3)
+18:05:36.056 Application state reset - ready for new connection
+18:05:36.057 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 18:11:11 ===
+18:11:11.697 [INFO] Kestrel v1.0
+18:11:11.697 [INFO] Ready for serial communication
+18:11:11.698 [INFO] Using Kestrel serial terminal patterns
+18:11:11.698 [INFO] Auto-detecting available serial ports
+18:11:11.827 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+18:11:11.980 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:11:11.980 [INFO] Selected COM port: COM29
+18:11:11.981 [INFO] Auto-connecting to Kestrel port COM29...
+18:11:12.104 [INFO] Kestrel 5340 on COM30
+18:11:12.150 [INFO] 5340 port COM30 connected
+18:11:12.295 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:11:13.009 [DEBUG] →5340: kl status
+18:11:13.105 [INFO] KL status loaded
+18:11:13.562 [DEBUG] →5340: kl fmt dump
+18:11:13.563 [INFO] KL format table loaded: 0 slot(s)
+18:11:14.026 [DEBUG] →5340: mav status
+18:11:14.029 [INFO] MAV status loaded
+18:11:16.072 [DEBUG] →5340: llext store list
+18:11:16.129 [DEBUG] →5340: geofence dump
+18:11:16.152 [INFO] Geofence dump: 0 fence(s) loaded
+18:11:16.359 [DEBUG] →5340: geofence monitor
+18:11:33.971 [DEBUG] →5340: llext store instances 0
+18:11:42.617 [DEBUG] →5340: llext store load 0
+18:12:04.937 [DEBUG] →5340: llext store list
+18:12:17.104 [DEBUG] →5340: llext store instances 0
+18:12:49.580 [DEBUG] →5340: llext store instances 0
+18:12:51.328 [DEBUG] →5340: llext store instances 0
+18:12:54.787 [DEBUG] →5340: llext fault-status
+18:13:03.760 [DEBUG] →5340: llext store instances 0
+18:13:43.258 [DEBUG] →5340: llext upload begin uc1_mav_script
+18:13:46.864 [DEBUG] →5340: llext upload end 0
+18:14:26.531 [DEBUG] →5340: llext store instances 0
+18:14:44.027 [DEBUG] →5340: llext store list
+18:23:34.046 Application state reset - ready for new connection
+18:23:34.046 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 18:28:01 ===
+18:28:01.208 [INFO] Kestrel v1.0
+18:28:01.208 [INFO] Ready for serial communication
+18:28:01.209 [INFO] Using Kestrel serial terminal patterns
+18:28:01.210 [INFO] Auto-detecting available serial ports
+18:28:01.338 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+18:28:01.491 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:28:01.491 [INFO] Selected COM port: COM29
+18:28:01.491 [INFO] Auto-connecting to Kestrel port COM29...
+18:28:01.594 [INFO] Kestrel 5340 on COM30
+18:28:01.642 [INFO] 5340 port COM30 connected
+18:28:01.808 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:28:02.608 [DEBUG] →5340: kl status
+18:28:02.610 [INFO] KL status loaded
+18:28:03.068 [DEBUG] →5340: kl fmt dump
+18:28:03.080 [INFO] KL format table loaded: 0 slot(s)
+18:28:03.539 [DEBUG] →5340: mav status
+18:28:03.541 [INFO] MAV status loaded
+18:28:05.606 [DEBUG] →5340: geofence dump
+18:28:05.635 [INFO] Geofence dump: 0 fence(s) loaded
+18:28:05.842 [DEBUG] →5340: geofence monitor
+18:28:07.559 [DEBUG] →5340: llext store list
+18:28:16.736 [DEBUG] →5340: llext load
+18:28:23.213 [DEBUG] →5340: llext unload
+18:28:28.414 [DEBUG] →5340: llext list
+18:28:31.177 [DEBUG] →5340: llext load
+18:28:31.828 [DEBUG] →5340: llext list
+18:28:34.638 [DEBUG] →5340: llext list
+18:33:42.839 Application state reset - ready for new connection
+18:33:42.840 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 18:33:52 ===
+18:33:52.935 [INFO] Kestrel v1.0
+18:33:52.936 [INFO] Ready for serial communication
+18:33:52.937 [INFO] Using Kestrel serial terminal patterns
+18:33:52.938 [INFO] Auto-detecting available serial ports
+18:33:53.059 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+18:33:53.220 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:33:53.221 [INFO] Selected COM port: COM29
+18:33:53.221 [INFO] Auto-connecting to Kestrel port COM29...
+18:33:53.329 [INFO] Kestrel 5340 on COM30
+18:33:53.379 [INFO] 5340 port COM30 connected
+18:33:53.535 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:33:54.282 [DEBUG] →5340: kl status
+18:33:54.284 [INFO] KL status loaded
+18:33:54.768 [DEBUG] →5340: kl fmt dump
+18:33:54.768 [INFO] KL format table loaded: 0 slot(s)
+18:33:55.236 [DEBUG] →5340: mav status
+18:33:55.237 [INFO] MAV status loaded
+18:33:57.333 [DEBUG] →5340: geofence dump
+18:33:57.382 [INFO] Geofence dump: 0 fence(s) loaded
+18:33:57.590 [DEBUG] →5340: geofence monitor
+18:33:59.956 [DEBUG] →5340: llext store list
+18:34:04.899 [WARNING] 5340 command response timeout
+18:34:05.944 [DEBUG] →5340: llext store list
+18:34:10.232 [WARNING] 5340 port busy — skipping slot refresh
+18:34:10.884 [WARNING] 5340 command response timeout
+18:34:18.422 [DEBUG] →5340: llext list
+18:37:45.352 Application state reset - ready for new connection
+18:37:45.352 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 18:37:55 ===
+18:37:55.445 [INFO] Kestrel v1.0
+18:37:55.445 [INFO] Ready for serial communication
+18:37:55.447 [INFO] Using Kestrel serial terminal patterns
+18:37:55.447 [INFO] Auto-detecting available serial ports
+18:37:55.553 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+18:37:55.724 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:37:55.725 [INFO] Selected COM port: COM29
+18:37:55.725 [INFO] Auto-connecting to Kestrel port COM29...
+18:37:55.844 [INFO] Kestrel 5340 on COM30
+18:37:55.890 [INFO] 5340 port COM30 connected
+18:37:56.053 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:37:56.848 [DEBUG] →5340: kl status
+18:37:56.851 [INFO] KL status loaded
+18:37:57.310 [DEBUG] →5340: kl fmt dump
+18:37:57.310 [INFO] KL format table loaded: 0 slot(s)
+18:37:57.767 [DEBUG] →5340: mav status
+18:37:57.769 [INFO] MAV status loaded
+18:37:59.834 [DEBUG] →5340: geofence dump
+18:37:59.886 [INFO] Geofence dump: 0 fence(s) loaded
+18:38:00.095 [DEBUG] →5340: geofence monitor
+18:38:30.331 [DEBUG] →5340: llext store list
+18:38:35.229 [WARNING] 5340 command response timeout
+18:38:36.219 [DEBUG] →5340: llext list
+18:38:41.152 [WARNING] 5340 command response timeout
+18:38:46.207 [DEBUG] →5340: llext list
+18:38:51.105 [WARNING] 5340 command response timeout
+18:38:57.677 [DEBUG] →5340: llext store list
+18:39:02.619 [WARNING] 5340 command response timeout
+18:39:03.663 [DEBUG] →5340: llext list
+18:39:08.615 [WARNING] 5340 command response timeout
+18:45:02.684 Application state reset - ready for new connection
+18:45:02.685 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 18:52:14 ===
+18:52:14.172 [INFO] Kestrel v1.0
+18:52:14.172 [INFO] Ready for serial communication
+18:52:14.173 [INFO] Using Kestrel serial terminal patterns
+18:52:14.173 [INFO] Auto-detecting available serial ports
+18:52:14.294 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+18:52:14.478 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:52:14.478 [INFO] Selected COM port: COM29
+18:52:14.478 [INFO] Auto-connecting to Kestrel port COM29...
+18:52:14.578 [INFO] Kestrel 5340 on COM30
+18:52:14.624 [INFO] 5340 port COM30 connected
+18:52:14.783 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+18:52:15.595 [DEBUG] →5340: kl status
+18:52:15.705 [INFO] KL status loaded
+18:52:16.161 [DEBUG] →5340: kl fmt dump
+18:52:16.162 [INFO] KL format table loaded: 0 slot(s)
+18:52:16.618 [DEBUG] →5340: mav status
+18:52:16.623 [INFO] MAV status loaded
+18:52:17.949 [DEBUG] →5340: llext store list
+18:52:22.791 [WARNING] 5340 command response timeout
+18:55:23.095 [WARNING] Device on COM29 removed — auto-disconnecting
+18:55:23.097 Application state reset - ready for new connection
+18:55:23.100 Disconnected - All state reset
+18:55:24.292 [INFO] Found 9 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM107, COM108
+18:55:26.328 [INFO] Found 11 serial port(s): COM1, COM5, COM7, COM17, COM18, COM22, COM23, COM24, COM25, COM107, COM108
+18:59:12.318 [INFO] Found 9 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM107, COM108
+18:59:14.342 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+=== Kestrel Log Started: 2026-04-25 19:00:50 ===
+19:00:50.254 [INFO] Kestrel v1.0
+19:00:50.254 [INFO] Ready for serial communication
+19:00:50.255 [INFO] Using Kestrel serial terminal patterns
+19:00:50.255 [INFO] Auto-detecting available serial ports
+19:00:50.378 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+19:00:50.531 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:00:50.531 [INFO] Selected COM port: COM29
+19:00:50.532 [INFO] Auto-connecting to Kestrel port COM29...
+19:00:50.626 [INFO] Kestrel 5340 on COM30
+19:00:50.675 [INFO] 5340 port COM30 connected
+19:00:50.832 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:00:51.532 [DEBUG] →5340: kl status
+19:00:51.535 [INFO] KL status loaded
+19:00:51.994 [DEBUG] →5340: kl fmt dump
+19:00:51.995 [INFO] KL format table loaded: 0 slot(s)
+19:00:52.575 [DEBUG] →5340: mav status
+19:00:52.582 [INFO] MAV status loaded
+19:00:53.439 [DEBUG] →5340: llext store list
+19:00:54.632 [DEBUG] →5340: geofence dump
+19:00:54.667 [INFO] Geofence dump: 0 fence(s) loaded
+19:00:54.874 [DEBUG] →5340: geofence monitor
+19:01:00.563 [DEBUG] →5340: llext store list
+19:01:00.980 [DEBUG] →5340: llext store list
+19:01:10.337 [DEBUG] →5340: llext list
+19:01:11.319 [DEBUG] →5340: llext load
+19:01:12.105 [DEBUG] →5340: llext list
+19:01:35.231 [DEBUG] →5340: llext store start 0 heartbeat_monitor
+19:01:38.224 [DEBUG] →5340: llext list
+19:01:52.815 [DEBUG] →5340: llext list
+19:01:59.840 [DEBUG] →5340: llext start heartbeat_monitor
+19:02:02.909 [DEBUG] →5340: llext list
+19:02:05.635 [DEBUG] →5340: llext stop heartbeat_monitor
+19:02:07.706 [DEBUG] →5340: llext list
+19:04:25.023 [DEBUG] →5340: llext fault-status
+19:08:14.671 Application state reset - ready for new connection
+19:08:14.672 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 19:09:23 ===
+19:09:23.818 [INFO] Kestrel v1.0
+19:09:23.819 [INFO] Ready for serial communication
+19:09:23.819 [INFO] Using Kestrel serial terminal patterns
+19:09:23.820 [INFO] Auto-detecting available serial ports
+19:09:23.947 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+19:09:24.112 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:09:24.112 [INFO] Selected COM port: COM29
+19:09:24.112 [INFO] Auto-connecting to Kestrel port COM29...
+19:09:24.206 [INFO] Kestrel 5340 on COM30
+19:09:24.265 [INFO] 5340 port COM30 connected
+19:09:24.426 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:09:25.123 [DEBUG] →5340: kl status
+19:09:25.125 [INFO] KL status loaded
+19:09:25.581 [DEBUG] →5340: kl fmt dump
+19:09:25.582 [INFO] KL format table loaded: 0 slot(s)
+19:09:26.041 [DEBUG] →5340: mav status
+19:09:26.044 [INFO] MAV status loaded
+19:09:28.225 [DEBUG] →5340: geofence dump
+19:09:28.264 [INFO] Geofence dump: 0 fence(s) loaded
+19:09:28.471 [DEBUG] →5340: geofence monitor
+19:09:29.959 [DEBUG] →5340: llext list
+19:09:44.602 [DEBUG] →5340: llext store list
+19:09:56.138 [DEBUG] →5340: llext list
+19:10:26.136 [DEBUG] →5340: llext fault-status
+19:11:29.204 Application state reset - ready for new connection
+19:11:29.204 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-25 19:15:36 ===
+19:15:36.979 [INFO] Kestrel v1.0
+19:15:36.980 [INFO] Ready for serial communication
+19:15:36.981 [INFO] Using Kestrel serial terminal patterns
+19:15:36.981 [INFO] Auto-detecting available serial ports
+19:15:37.100 [INFO] Kestrel primary (9151) on COM29 — auto-connecting
+19:15:37.274 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:15:37.275 [INFO] Selected COM port: COM29
+19:15:37.275 [INFO] Auto-connecting to Kestrel port COM29...
+19:15:37.369 [INFO] Kestrel 5340 on COM30
+19:15:37.420 [INFO] 5340 port COM30 connected
+19:15:37.576 [INFO] Found 12 serial port(s): COM1, COM17, COM18, COM22, COM23, COM24, COM25, COM29, COM30, COM31, COM107, COM108
+19:15:38.302 [DEBUG] →5340: kl status
+19:15:38.304 [INFO] KL status loaded
+19:15:38.760 [DEBUG] →5340: kl fmt dump
+19:15:38.762 [INFO] KL format table loaded: 0 slot(s)
+19:15:39.218 [DEBUG] →5340: mav status
+19:15:39.220 [INFO] MAV status loaded
+19:15:40.657 [DEBUG] →5340: llext store list
+19:15:41.382 [DEBUG] →5340: geofence dump
+19:15:41.416 [INFO] Geofence dump: 0 fence(s) loaded
+19:15:41.628 [DEBUG] →5340: geofence monitor
+19:15:42.501 [DEBUG] →5340: llext list
+19:15:45.189 [DEBUG] →5340: llext start heartbeat_monitor
+19:15:45.647 [DEBUG] →5340: llext list
+19:15:47.265 [DEBUG] →5340: llext stop heartbeat_monitor
+19:15:47.722 [DEBUG] →5340: llext list
+19:15:48.951 [DEBUG] →5340: llext stop heartbeat_monitor
+19:15:49.409 [DEBUG] →5340: llext list
+19:15:53.681 [DEBUG] →5340: llext fault-status
+19:16:07.955 Application state reset - ready for new connection
+19:16:07.955 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-29 19:05:39 ===
+19:05:39.408 [INFO] Kestrel v1.0
+19:05:39.408 [INFO] Ready for serial communication
+19:05:39.409 [INFO] Using Kestrel serial terminal patterns
+19:05:39.409 [INFO] Auto-detecting available serial ports
+19:07:17.452 [INFO] Found 6 serial port(s): COM1, COM6, COM8, COM13, COM107, COM108
+19:07:21.484 [INFO] Kestrel 5340 on COM13
+19:07:21.509 [INFO] Found 6 serial port(s): COM1, COM6, COM8, COM13, COM107, COM108
+19:07:39.432 [INFO] Found 3 serial port(s): COM1, COM107, COM108
+19:12:07.449 [INFO] Found 5 serial port(s): COM1, COM5, COM7, COM107, COM108
+19:18:07.511 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:18:11.554 [INFO] Kestrel 5340 on COM13
+19:18:11.594 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:18:11.797 [INFO] 5340 port COM13 connected
+19:18:12.649 [DEBUG] →5340: kl status
+19:18:12.650 [INFO] KL status loaded
+19:18:13.100 [DEBUG] →5340: kl fmt dump
+19:18:13.100 [INFO] KL format table loaded: 0 slot(s)
+19:18:13.585 [DEBUG] →5340: mav status
+19:18:13.586 [INFO] MAV status loaded
+19:18:15.854 [DEBUG] →5340: geofence dump
+19:18:15.994 [INFO] Geofence dump: 2 fence(s) loaded
+19:18:16.195 [DEBUG] →5340: geofence monitor
+19:22:22.811 Application state reset - ready for new connection
+19:22:22.811 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-29 19:26:28 ===
+19:26:28.321 [INFO] Kestrel v1.0
+19:26:28.322 [INFO] Ready for serial communication
+19:26:28.322 [INFO] Using Kestrel serial terminal patterns
+19:26:28.323 [INFO] Auto-detecting available serial ports
+19:26:32.404 [INFO] Kestrel 5340 on COM13
+19:26:32.446 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:26:36.061 [INFO] 5340 port COM13 connected
+19:26:36.912 [DEBUG] →5340: kl status
+19:26:36.915 [INFO] KL status loaded
+19:26:37.366 [DEBUG] →5340: kl fmt dump
+19:26:37.366 [INFO] KL format table loaded: 0 slot(s)
+19:26:37.817 [DEBUG] →5340: mav status
+19:26:37.818 [INFO] MAV status loaded
+19:26:40.098 [DEBUG] →5340: geofence dump
+19:26:40.236 [INFO] Geofence dump: 2 fence(s) loaded
+19:26:40.436 [DEBUG] →5340: geofence monitor
+19:26:50.413 [DEBUG] →5340: llext download 0
+19:26:50.413 [INFO] Download started — capture LLEXT_DL_BEGIN…LLEXT_DL_END block from the 5340 terminal
+19:27:39.309 [DEBUG] →5340: llext fault-status
+19:28:01.168 [DEBUG] →5340: llext store list
+19:37:46.253 Application state reset - ready for new connection
+19:37:46.253 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-29 19:39:08 ===
+19:39:08.125 [INFO] Kestrel v1.0
+19:39:08.126 [INFO] Ready for serial communication
+19:39:08.126 [INFO] Using Kestrel serial terminal patterns
+19:39:08.127 [INFO] Auto-detecting available serial ports
+19:39:12.206 [INFO] Kestrel 5340 on COM13
+19:39:12.244 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:39:18.164 [WARNING] 5340 port not open — cannot refresh slots
+19:39:21.604 [WARNING] 5340 port not open — cannot refresh slots
+19:39:24.581 [INFO] 5340 port COM13 connected
+19:39:25.433 [DEBUG] →5340: kl status
+19:39:25.435 [INFO] KL status loaded
+19:39:25.886 [DEBUG] →5340: kl fmt dump
+19:39:25.892 [INFO] KL format table loaded: 0 slot(s)
+19:39:26.344 [DEBUG] →5340: mav status
+19:39:26.346 [INFO] MAV status loaded
+19:39:27.272 [DEBUG] →5340: llext store list
+19:39:28.640 [DEBUG] →5340: geofence dump
+19:39:28.766 [INFO] Geofence dump: 2 fence(s) loaded
+19:39:28.967 [DEBUG] →5340: geofence monitor
+=== Kestrel Log Started: 2026-04-29 19:40:50 ===
+19:40:50.726 [INFO] Kestrel v1.0
+19:40:50.726 [INFO] Ready for serial communication
+19:40:50.727 [INFO] Using Kestrel serial terminal patterns
+19:40:50.728 [INFO] Auto-detecting available serial ports
+19:40:54.807 [INFO] Kestrel 5340 on COM13
+19:40:54.847 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+=== Kestrel Log Started: 2026-04-29 19:42:10 ===
+19:42:10.481 [INFO] Kestrel v1.0
+19:42:10.481 [INFO] Ready for serial communication
+19:42:10.482 [INFO] Using Kestrel serial terminal patterns
+19:42:10.482 [INFO] Auto-detecting available serial ports
+19:42:14.550 [INFO] Kestrel 5340 on COM13
+19:42:14.587 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+19:42:15.205 [INFO] 5340 port COM13 connected
+19:42:16.057 [DEBUG] →5340: kl status
+19:42:16.061 [INFO] KL status loaded
+19:42:16.513 [DEBUG] →5340: kl fmt dump
+19:42:16.552 [INFO] KL format table loaded: 0 slot(s)
+19:42:17.004 [DEBUG] →5340: mav status
+19:42:17.006 [INFO] MAV status loaded
+19:42:17.392 [DEBUG] →5340: llext store list
+19:42:19.257 [DEBUG] →5340: geofence dump
+19:42:19.392 [INFO] Geofence dump: 2 fence(s) loaded
+19:42:19.594 [DEBUG] →5340: geofence monitor
+19:42:27.756 [DEBUG] →5340: llext load
+19:42:28.648 [DEBUG] →5340: llext list
+19:42:30.697 [DEBUG] →5340: llext unload
+19:42:31.060 [DEBUG] →5340: llext list
+19:57:30.210 Application state reset - ready for new connection
+19:57:30.211 Disconnected - All state reset
+=== Kestrel Log Started: 2026-04-29 19:58:49 ===
+19:58:49.588 [INFO] Kestrel v1.0
+19:58:49.589 [INFO] Ready for serial communication
+19:58:49.590 [INFO] Using Kestrel serial terminal patterns
+19:58:49.590 [INFO] Auto-detecting available serial ports
+19:58:53.662 [INFO] Kestrel 5340 on COM13
+19:58:53.701 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+=== Kestrel Log Started: 2026-04-29 19:59:09 ===
+19:59:09.568 [INFO] Kestrel v1.0
+19:59:09.568 [INFO] Ready for serial communication
+19:59:09.568 [INFO] Using Kestrel serial terminal patterns
+19:59:09.570 [INFO] Auto-detecting available serial ports
+19:59:13.642 [INFO] Kestrel 5340 on COM13
+19:59:13.681 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+=== Kestrel Log Started: 2026-04-29 20:04:01 ===
+20:04:01.247 [INFO] Kestrel v1.0
+20:04:01.248 [INFO] Ready for serial communication
+20:04:01.249 [INFO] Using Kestrel serial terminal patterns
+20:04:01.249 [INFO] Auto-detecting available serial ports
+20:04:05.308 [INFO] Kestrel 5340 on COM13
+20:04:05.346 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+=== Kestrel Log Started: 2026-04-30 10:26:01 ===
+10:26:01.191 [INFO] Kestrel v1.0
+10:26:01.192 [INFO] Ready for serial communication
+10:26:01.193 [INFO] Using Kestrel serial terminal patterns
+10:26:01.193 [INFO] Auto-detecting available serial ports
+10:26:05.284 [INFO] Kestrel 5340 on COM13
+10:26:05.327 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:27:02.457 [INFO] 5340 port COM13 connected
+10:27:03.309 [DEBUG] →5340: kl status
+10:27:03.312 [INFO] KL status loaded
+10:27:03.771 [DEBUG] →5340: kl fmt dump
+10:27:03.772 [INFO] KL format table loaded: 0 slot(s)
+10:27:04.224 [DEBUG] →5340: mav status
+10:27:04.226 [INFO] MAV status loaded
+10:27:06.511 [DEBUG] →5340: geofence dump
+10:27:06.641 [INFO] Geofence dump: 2 fence(s) loaded
+10:27:06.842 [DEBUG] →5340: geofence monitor
+10:27:30.832 [DEBUG] →5340: geofence new 1 Test log 0 200
+10:27:30.897 [DEBUG] →5340: geofence add_wp 37.7706785 -85.7380066
+10:27:30.960 [DEBUG] →5340: geofence add_wp 36.7388474 -83.7055359
+10:27:31.022 [DEBUG] →5340: geofence add_wp 35.5679432 -83.2331238
+10:27:31.083 [DEBUG] →5340: geofence add_wp 34.8408210 -83.3320007
+10:27:31.152 [DEBUG] →5340: geofence add_wp 34.2435568 -83.8923035
+10:27:31.209 [DEBUG] →5340: geofence add_wp 33.7517098 -84.4635925
+10:27:31.336 [DEBUG] →5340: geofence add_wp 33.4222340 -84.8920593
+10:27:31.397 [DEBUG] →5340: geofence add_wp 33.0638858 -85.4084167
+10:27:31.461 [DEBUG] →5340: geofence add_wp 32.8703217 -86.5400085
+10:27:31.529 [DEBUG] →5340: geofence add_wp 32.8241726 -87.7155457
+10:27:31.585 [DEBUG] →5340: geofence add_wp 32.8979997 -88.6933289
+10:27:31.647 [DEBUG] →5340: geofence add_wp 33.3304899 -89.8688660
+10:27:31.710 [DEBUG] →5340: geofence add_wp 34.0617234 -90.4841003
+10:27:31.772 [DEBUG] →5340: geofence add_wp 35.2007073 -90.6049500
+10:27:31.834 [DEBUG] →5340: geofence add_wp 36.0579440 -90.3852234
+10:27:31.898 [DEBUG] →5340: geofence add_wp 37.0814391 -89.5832214
+10:27:31.960 [DEBUG] →5340: geofence add_wp 37.6750890 -88.7592468
+10:27:32.022 [DEBUG] →5340: geofence add_wp 37.9961266 -88.0011902
+10:27:32.086 [DEBUG] →5340: geofence add_wp 38.1777149 -87.1222839
+10:27:32.146 [DEBUG] →5340: geofence add_wp 38.1949855 -86.5070496
+10:27:32.208 [DEBUG] →5340: geofence save
+10:27:32.572 [DEBUG] →5340: geofence dump
+10:27:32.767 [INFO] Geofence dump: 3 fence(s) loaded
+10:27:32.967 [DEBUG] →5340: geofence monitor
+10:27:43.587 [DEBUG] →5340: geofence dump
+10:27:43.768 [INFO] Geofence dump: 3 fence(s) loaded
+10:27:43.970 [DEBUG] →5340: geofence monitor
+10:27:56.960 [DEBUG] →5340: llext store list
+10:30:35.404 [DEBUG] →5340: llext upload status
+10:30:36.921 [DEBUG] →5340: llext upload begin uc4_log_external_script_test
+10:30:40.006 [DEBUG] →5340: llext upload end
+10:30:48.554 [DEBUG] →5340: llext store list
+10:30:54.675 [DEBUG] →5340: llext store load 0
+10:30:54.928 [DEBUG] →5340: llext store list
+10:30:59.836 [DEBUG] →5340: llext store autostart 0 on
+10:31:03.676 [DEBUG] →5340: llext store autostart 0 off
+10:31:05.871 [DEBUG] →5340: llext store autostart 0 off
+10:31:08.271 [DEBUG] →5340: llext store list
+10:31:09.497 [DEBUG] →5340: llext store autostart 0 on
+10:32:20.094 [DEBUG] →5340: llext store start 0 external_script_log_test
+=== Kestrel Log Started: 2026-04-30 10:32:24 ===
+10:32:24.992 [INFO] Kestrel v1.0
+10:32:24.992 [INFO] Ready for serial communication
+10:32:24.993 [INFO] Using Kestrel serial terminal patterns
+10:32:24.993 [INFO] Auto-detecting available serial ports
+10:32:29.088 [INFO] Kestrel 5340 on COM13
+10:32:29.124 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:32:30.839 [INFO] 5340 port COM13 connected
+10:32:31.690 [DEBUG] →5340: kl status
+10:32:31.692 [INFO] KL status loaded
+10:32:32.143 [DEBUG] →5340: kl fmt dump
+10:32:32.143 [INFO] KL format table loaded: 0 slot(s)
+10:32:32.595 [DEBUG] →5340: mav status
+10:32:32.596 [INFO] MAV status loaded
+10:32:34.879 [DEBUG] →5340: geofence dump
+10:32:35.079 [INFO] Geofence dump: 3 fence(s) loaded
+10:32:35.280 [DEBUG] →5340: geofence monitor
+10:32:39.521 [DEBUG] →5340: llext store list
+=== Kestrel Log Started: 2026-04-30 10:32:55 ===
+10:32:55.310 [INFO] Kestrel v1.0
+10:32:55.310 [INFO] Ready for serial communication
+10:32:55.312 [INFO] Using Kestrel serial terminal patterns
+10:32:55.312 [INFO] Auto-detecting available serial ports
+10:32:59.401 [INFO] Kestrel 5340 on COM13
+10:32:59.443 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+=== Kestrel Log Started: 2026-04-30 10:35:32 ===
+10:35:32.466 [INFO] Kestrel v1.0
+10:35:32.467 [INFO] Ready for serial communication
+10:35:32.467 [INFO] Using Kestrel serial terminal patterns
+10:35:32.468 [INFO] Auto-detecting available serial ports
+=== Kestrel Log Started: 2026-04-30 10:36:53 ===
+10:36:53.150 [INFO] Kestrel v1.0
+10:36:53.150 [INFO] Ready for serial communication
+10:36:53.150 [INFO] Using Kestrel serial terminal patterns
+10:36:53.151 [INFO] Auto-detecting available serial ports
+10:36:56.319 [WARNING] 5340 port not open — cannot refresh slots
+10:36:57.230 [INFO] Kestrel 5340 on COM13
+10:36:57.267 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:36:58.948 [INFO] 5340 port COM13 connected
+10:36:59.800 [DEBUG] →5340: kl status
+10:36:59.802 [INFO] KL status loaded
+10:36:59.860 [DEBUG] →5340: llext store list
+10:37:00.254 [DEBUG] →5340: kl fmt dump
+10:37:00.254 [INFO] KL format table loaded: 0 slot(s)
+10:37:00.705 [DEBUG] →5340: mav status
+10:37:00.707 [INFO] MAV status loaded
+10:37:02.992 [DEBUG] →5340: geofence dump
+10:37:03.188 [INFO] Geofence dump: 3 fence(s) loaded
+10:37:03.392 [DEBUG] →5340: geofence monitor
+10:37:16.366 [DEBUG] →5340: llext store instances 0
+10:37:20.023 [DEBUG] →5340: llext store stop 0 external_script_log_test
+10:37:20.474 [DEBUG] →5340: llext store instances 0
+10:37:41.190 [DEBUG] →5340: llext download 0
+10:37:41.567 [INFO] Downloaded slot 0 (uc4_log_external_script_test, 2256 bytes) → C:/Users/leona/Desktop/s1.llext
+10:38:38.119 [DEBUG] →5340: llext load
+10:38:40.269 [DEBUG] →5340: llext list
+10:38:53.705 [DEBUG] →5340: llext fault-status
+10:39:12.137 Application state reset - ready for new connection
+10:39:12.143 [INFO] 5340 port COM13 connected
+10:39:12.995 [DEBUG] →5340: kl status
+10:39:12.997 [INFO] KL status loaded
+10:39:13.221 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+10:39:13.260 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:39:13.449 [DEBUG] →5340: kl fmt dump
+10:39:13.449 [INFO] KL format table loaded: 0 slot(s)
+10:39:13.900 [DEBUG] →5340: mav status
+10:39:13.903 [INFO] MAV status loaded
+10:39:16.199 [DEBUG] →5340: geofence dump
+10:39:16.395 [INFO] Geofence dump: 3 fence(s) loaded
+10:39:16.597 [DEBUG] →5340: geofence monitor
+10:41:28.108 [DEBUG] →5340: llext store list
+10:41:29.939 [DEBUG] →5340: llext store load 0
+10:41:30.192 [DEBUG] →5340: llext store list
+10:41:33.446 [DEBUG] →5340: llext store autostart 0 off
+10:41:33.896 [DEBUG] →5340: llext store list
+10:41:53.644 [DEBUG] →5340: llext upload begin uc5_fault_test
+10:41:56.726 [DEBUG] →5340: llext upload end
+10:42:06.561 [DEBUG] →5340: llext fault-status
+10:42:15.779 [DEBUG] →5340: llext store list
+10:42:26.481 [DEBUG] →5340: llext store list
+10:42:27.557 [DEBUG] →5340: llext store load 1
+10:42:27.809 [DEBUG] →5340: llext store list
+10:42:35.259 [DEBUG] →5340: llext store instances 1
+10:42:39.330 [DEBUG] →5340: llext store instances 1
+10:42:43.457 [DEBUG] →5340: llext store start 1 fault_test
+10:42:43.909 [DEBUG] →5340: llext store instances 1
+=== Kestrel Log Started: 2026-04-30 10:43:28 ===
+10:43:28.455 [INFO] Kestrel v1.0
+10:43:28.456 [INFO] Ready for serial communication
+10:43:28.457 [INFO] Using Kestrel serial terminal patterns
+10:43:28.457 [INFO] Auto-detecting available serial ports
+10:43:30.477 [INFO] Found 5 serial port(s): COM1, COM5, COM7, COM107, COM108
+10:43:32.507 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:43:36.540 [INFO] Kestrel 5340 on COM13
+10:43:36.580 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:43:37.946 [INFO] 5340 port COM13 connected
+10:43:38.524 [INFO] Kestrel primary (9151) on COM8 — auto-connecting
+10:43:38.561 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:43:38.799 [DEBUG] →5340: kl status
+10:43:38.800 [INFO] KL status loaded
+10:43:39.250 [DEBUG] →5340: kl fmt dump
+10:43:39.251 [INFO] KL format table loaded: 0 slot(s)
+10:43:39.703 [DEBUG] →5340: mav status
+10:43:39.704 [INFO] MAV status loaded
+10:43:41.993 [DEBUG] →5340: geofence dump
+10:43:42.190 [INFO] Geofence dump: 3 fence(s) loaded
+10:43:42.392 [DEBUG] →5340: geofence monitor
+10:43:46.693 [DEBUG] →5340: llext fault-status
+10:43:58.964 [DEBUG] →5340: llext store list
+10:44:08.122 [DEBUG] →5340: llext store autostart 1 on
+10:44:08.575 [DEBUG] →5340: llext store list
+10:44:14.336 [DEBUG] →5340: llext store load 1
+10:44:14.587 [DEBUG] →5340: llext store list
+10:44:17.865 [DEBUG] →5340: llext store start 1 fault_test
+10:44:18.316 [DEBUG] →5340: llext store instances 1
+=== Kestrel Log Started: 2026-04-30 10:46:24 ===
+10:46:24.191 [INFO] Kestrel v1.0
+10:46:24.201 [INFO] Ready for serial communication
+10:46:24.203 [INFO] Using Kestrel serial terminal patterns
+10:46:24.205 [INFO] Auto-detecting available serial ports
+10:46:26.192 [INFO] Found 5 serial port(s): COM1, COM5, COM7, COM107, COM108
+10:46:32.226 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:46:36.263 [INFO] Kestrel 5340 on COM13
+10:46:36.301 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:46:37.399 [INFO] 5340 port COM13 connected
+10:46:38.278 [DEBUG] →5340: kl status
+10:46:38.280 [INFO] KL status loaded
+10:46:38.732 [DEBUG] →5340: kl fmt dump
+10:46:38.830 [INFO] KL format table loaded: 0 slot(s)
+10:46:39.282 [DEBUG] →5340: mav status
+10:46:39.380 [WARNING] 5340 port busy — skipping slot refresh
+=== Kestrel Log Started: 2026-04-30 10:47:01 ===
+10:47:01.982 [INFO] Kestrel v1.0
+10:47:01.982 [INFO] Ready for serial communication
+10:47:01.983 [INFO] Using Kestrel serial terminal patterns
+10:47:01.984 [INFO] Auto-detecting available serial ports
+10:47:06.045 [INFO] Kestrel 5340 on COM13
+10:47:06.088 [INFO] Found 8 serial port(s): COM1, COM5, COM6, COM7, COM8, COM13, COM107, COM108
+10:47:06.612 [INFO] 5340 port COM13 connected
+10:47:07.465 [DEBUG] →5340: kl status
+10:47:07.467 [INFO] KL status loaded
+10:47:07.918 [DEBUG] →5340: kl fmt dump
+10:47:08.026 [INFO] KL format table loaded: 0 slot(s)
+10:47:08.478 [DEBUG] →5340: mav status
+10:47:08.480 [INFO] MAV status loaded
+10:47:09.939 [DEBUG] →5340: llext store list
+10:47:25.020 [WARNING] 5340 command response timeout
+10:47:55.048 Application state reset - ready for new connection
+10:47:55.049 Disconnected - All state reset
